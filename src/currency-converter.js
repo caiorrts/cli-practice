@@ -81,7 +81,6 @@ if (rates[initialCurrency] !== undefined && rates[initialCurrency][targetCurrenc
 // Now we will compute the rate, apply it to the amount, and capture the result.
 var rate = rates[initialCurrency][targetCurrency];
 var result = amount * rate;
-console.log('The result is: ', result);
 
 
 // --------------------------------------------------
@@ -91,3 +90,4 @@ console.log('The result is: ', result);
 
 // This message should also include the original amount and currency information
 // supplied by the user.
+console.log(`Successfully converted ${amount} ${initialCurrency} into ${result} ${targetCurrency}.`);
