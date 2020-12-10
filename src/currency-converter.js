@@ -79,7 +79,9 @@ if (rates[initialCurrency] !== undefined && rates[initialCurrency][targetCurrenc
 // information, and that a rate exists for each of the currencies.
 
 // Now we will compute the rate, apply it to the amount, and capture the result.
-
+var rate = rates[initialCurrency][targetCurrency];
+var result = amount * rate;
+console.log('The result is: ', result);
 
 
 // --------------------------------------------------
