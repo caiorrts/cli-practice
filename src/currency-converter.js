@@ -45,10 +45,10 @@ if (amount === undefined || initialCurrency === undefined || targetCurrency === 
 // up-to-date rate information: https://www.xe.com/
 var rates = {
     USD: {
-        CAD: 2,
+        CAD: 1.27,
     },
     CAD: {
-        USD: 0.5,
+        USD: 0.78,
     },
 };
 
