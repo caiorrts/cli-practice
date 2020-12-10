@@ -26,7 +26,10 @@ var targetCurrency = process.argv[4];
 
 // If any of the required information is missing, display a meaningful message
 // and exit the program.
-
+if (amount === undefined || initialCurrency === undefined || targetCurrency === undefined) {
+    console.log('Whoops, you did not provide the amount, initial currency or target currency.');
+    process.exit();
+}
 
 
 // --------------------------------------------------
