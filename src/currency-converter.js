@@ -14,7 +14,9 @@
 // In this step we will capture the command line  information supplied by the user.
 
 // We will store each piece of information in a dedicated variable for later use.
-
+var amount = process.argv[2];
+var initialCurrency = process.argv[3];
+var targetCurrency = process.argv[4];
 
 
 // --------------------------------------------------
