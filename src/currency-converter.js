@@ -46,9 +46,15 @@ validateUserInput(amount, initialCurrency, targetCurrency);
 var rates = {
     USD: {
         CAD: 1.27,
+        EUR: 0.82,
     },
     CAD: {
         USD: 0.78,
+        EUR: 0.64,
+    },
+    EUR: {
+        USD: 1.21,
+        CAD: 1.54,
     },
 };
 
