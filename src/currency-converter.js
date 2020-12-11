@@ -47,14 +47,22 @@ var rates = {
     USD: {
         CAD: 1.27,
         EUR: 0.82,
+        BRL: 5.02,
     },
     CAD: {
         USD: 0.78,
         EUR: 0.64,
+        BRL: 3.95,
     },
     EUR: {
         USD: 1.21,
         CAD: 1.54,
+        BRL: 6.11,
+    },
+    BRL: {
+        USD: 1.21,
+        CAD: 1.54,
+        EUR: 0.16,
     },
 };
 
